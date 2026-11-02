@@ -62,7 +62,7 @@ aws-secure-s3-backup/
 │   ├── locals.tf
 │   ├── main.tf
 │   ├── output.tf
-│   └── terraform.tfvars   # local only; do not commit
+│   └── terraform.tfvars   (local file, excluded from Git)
 ├── .gitignore
 └── README.md
 ```

@@ -1,0 +1,20 @@
+#Terraform
+terraform/
+.tfstate
+.tfstate.*
+.tfplan
+*/tfplan
+crash.log
+crash.*.log
+
+#Sensitive Variables and credentials
+terraform.tfvars
+.auto.tfvars
+*.pem
+*.key
+
+#Local Overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
